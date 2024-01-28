@@ -1,4 +1,5 @@
 import random
+import heapq
 
 for (u, v) in G.edges():
     G[u][v]['weight'] = random.randint(1, 10)
